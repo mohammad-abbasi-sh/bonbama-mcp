@@ -1,0 +1,9 @@
+.git
+.github
+tests
+.venv
+__pycache__
+.pytest_cache
+Dockerfile
+.dockerignore
+DEPLOY.md
