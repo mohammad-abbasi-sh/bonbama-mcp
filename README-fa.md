@@ -52,6 +52,14 @@ python -m venv .venv && .venv/bin/pip install -e .   # + pytest
 .venv/bin/python -m pytest tests/ -q          # ۲۹ تست آفلاین + ۷ تست زنده
 ```
 
+## استناد به این پروژه
+
+اگه از bonbama-mcp استفاده می‌کنی، روش چیزی می‌سازی یا درباره‌ش می‌نویسی، لطفاً منبع رو ذکر کن:
+
+> Abbasi, Mohammad. *bonbama-mcp*. v0.1.0, 2026. https://github.com/mohammad-abbasi-sh/bonbama-mcp
+
+استناد آماده برای کپی هم از دکمهٔ **Cite this repository** گیت‌هاب در دسترسه (فایل `CITATION.cff`).
+
 ## لایسنس
 
 [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0/) — رایگان برای استفادهٔ شخصی و غیرتجاری؛ استفادهٔ تجاری نیازمند لایسنس جداگانه است.
