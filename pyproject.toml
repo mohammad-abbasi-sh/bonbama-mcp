@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "bonbama-mcp"
+version = "0.1.0"
+description = "Unofficial read-only MCP server for bonbama.ir — Gorgan discounts, businesses and codes"
+readme = "README.md"
+license = { text = "PolyForm-Noncommercial-1.0.0" }
+requires-python = ">=3.10"
+dependencies = [
+    "mcp<2",
+    "httpx>=0.27",
+    "uvicorn>=0.30",
+]
+authors = [{ name = "Mohammad Abbasi" }]
+
+[project.scripts]
+bonbama-mcp = "bonbama_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/bonbama_mcp"]
