@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use bonbama-mcp, please cite it as below."
+authors:
+  - family-names: "Abbasi"
+    given-names: "Mohammad"
+title: "bonbama-mcp"
+version: 0.1.0
+date-released: 2026-11-18
+url: "https://github.com/mohammad-abbasi-sh/bonbama-mcp"
+repository-code: "https://github.com/mohammad-abbasi-sh/bonbama-mcp"
+license: PolyForm-Noncommercial-1.0.0
+type: software
